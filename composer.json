@@ -1,0 +1,22 @@
+{
+    "name": "ajur-media/credis",
+    "description": "CRedis fork for AjurMedia Projects",
+    "type": "library",
+    "homepage": "https://github.com/ajur-media/credis",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AJUR\\CRedis\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karel Wintersky",
+            "email": "karel.wintersky@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "ext-redis": "*"
+    }
+}
